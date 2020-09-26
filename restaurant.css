@@ -1,0 +1,442 @@
+*{
+    margin: 0;
+     padding: 0;
+     color: white;
+     text-decoration: none;
+     box-sizing: border-box;
+}
+a {
+    color: white;
+}
+
+.navbar-light .navbar-toggler {
+    color: rgba(247, 247, 247, 0.68);
+    border-color: rgb(251, 248, 248);
+}
+[type="button"]:not(:disabled), [type="reset"]:not(:disabled), [type="submit"]:not(:disabled), button:not(:disabled) {
+    cursor: pointer;
+}
+.navbar-toggler {
+    padding: .25rem .75rem;
+    font-size: 1.25rem;
+    line-height: 1;
+    background-color: #e0dbdbf5;
+    border: 1px solid #b5acac;
+        border-top-color: rgba(181, 172, 172, 0.99);
+        border-right-color: rgba(181, 172, 172, 0.99);
+        border-bottom-color: rgba(181, 172, 172, 0.99);
+        border-left-color: rgba(181, 172, 172, 0.99);
+    border-radius: .25rem;
+}
+
+.navbar-toggler:hover {
+    background-color: rgb(83, 76, 76);
+}
+
+
+
+
+
+header{
+    background-image: url("restaurantimages/rest1bg.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.mainnavBar{
+    padding: 10px 100px;
+    background-color: rgba(255, 99, 71, 0.144)!important;
+    position: fixed;
+    width: 100%;
+    z-index: 300;
+    transition: all 0.8s;
+}
+
+
+.mainnavBar2 {
+    background-color: rgba(234, 46, 12, 0.79) !important;
+}
+
+
+
+.mainnavBar a {
+    color: white!important;
+}
+
+.mainnavBar a:hover {
+    color: orange!important;
+}
+.mainnavBar .active {
+    color: orange!important;
+}
+
+.mainnavBar ul li{
+    margin: 5px 15px;
+}
+.favs{
+    margin: 5px 2px!important;
+}
+
+.favs2{
+    margin-left: 50px!important;
+    margin-right: 2px!important;
+}
+
+.favs:hover, .favs2:hover {
+    background-color: turquoise;
+    color: turquoise;
+    border-radius: 50%;
+    padding: 1px 4px;
+}
+.favs:hover:last-child{
+    padding: 1px 7px;
+}
+
+.writings h1{
+    text-align: center;
+    font-family: 'Marck Script', cursive;
+    font-size: 3rem;
+    padding-top: 40vh;
+}
+
+
+.Order{
+    padding: 10vh 0 20vh 0;
+}
+
+.book{
+    background-color: #8d2e1c;
+    color: white;
+}
+
+
+.book:hover{
+    /* background-color: rgb(118, 223, 108); */
+    background-color: #fb5331b7;
+    border: transparent;
+    color: black;
+    font-style: italic;
+    font-weight: bold;
+    transition: all 0.6s;
+    font-family: sans-serif;
+}
+
+.call {
+    background: #535050ab;
+    background-color: rgba(83, 80, 80, 0.67);
+    color: white;
+    padding-left: 25px;
+    padding-right: 20px;
+}
+
+
+.call:hover{
+    border: transparent;
+    background-color: rgb(46, 42, 42);
+    color: black;
+    font-style: italic;
+    font-weight: bold;
+    transition: all 0.6s;
+}
+
+
+.call:hover i{
+    transform: rotate(-120deg);
+    color: green;
+    transition: all 0.4s;
+}
+
+
+
+
+
+
+/*header is done here*/
+.story {
+    background-image: url("restaurantimages/restbg2.jpg");
+    background-size: cover;
+}
+
+
+
+
+.story h2{
+    color: #fb5231;
+    text-align: center;
+    font-family: 'Marck Script', cursive;
+    padding-top: 40px;
+}
+
+.devider img {
+    margin-left: 42%;
+    width: 200px;
+}
+
+.storywriting {
+    text-align: center;
+    color: #4c4c4c;
+}
+
+.storywriting h4{
+    color: #4c4c4c;
+}
+
+
+
+.fineIng{
+    background-color: #fb7155;
+}
+
+.fineIng h4{
+    text-align: center;
+    font-family: 'Marck Script', cursive;
+}
+
+.fineIng p{
+    margin: 45px 0;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+}
+.fineIng img{
+    border-radius: 50%;
+}
+
+
+
+#catalog{
+    background-image: url("restaurantimages/bgdishmenu.jpg");
+    background-size: cover;
+}
+
+.row h5{
+    text-align: center;
+    font-family: 'Marck Script', cursive; 
+}
+
+
+
+.pricing{
+    max-width: 550px!important;
+    margin: auto;
+}
+.dishname{
+    float: left;
+}
+
+
+.dishPrice{
+    float: right;
+}
+
+.dishname h6 {
+    font-family: sans-serif;
+}
+.dishPrice h6 {
+    font-family: sans-serif;
+}
+.pricing p{
+    font-family: 'Yellowtail', cursive;
+    float: left!important;
+    text-align: left!important;
+    padding-top: 20px;
+}
+
+.pricing hr{
+    border: 1px solid #a13e35;
+    width: 100%;
+    float: left;
+    border-radius: 50%;
+}
+
+/* 
+
+.guestReview img{
+ margin: auto;
+} */
+
+.startratings {
+    margin: auto;
+}
+.startratings i{
+    color: orange;
+    margin: auto;
+}
+
+
+
+.booking{
+    background-image: url("restaurantimages/bookingbg.png");
+    background-position: cover;
+}
+
+.bookImages{
+    display: inline-block;
+}
+
+.formpart h4{
+    text-align: center!important;
+    font-family: 'Marck Script', cursive; 
+    color: #fb5231;
+}
+
+.formpart h6{
+    padding-top: 30px;
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    color: black;
+    line-height: 1.75rem;
+}
+.formpart input{
+    color: black;
+    border-color: #719ECE;
+    margin-top: 5px;
+}
+.formpart input:focus{
+    border: 1px solid #fb5231;
+     box-shadow: 0 0 10px #f54905;
+  
+}
+
+.bookbtn{
+    color: white;
+    background-color: #fa5534;
+}
+
+.formpart p{
+    color: #fb5231;
+    float: left!important;
+}
+
+
+.date {
+    padding: 0px 37px ;
+}
+
+
+footer{
+    background-image: url("restaurantimages/bgfooter.jpg");
+    background-position: cover;
+}
+
+footer .container div {
+    padding-top: 70px;
+    padding-bottom: 40px;
+    text-align: center;
+}
+
+.middle{
+    padding-top: 25px!important;
+    text-align: center;
+}
+
+.middle ul li{
+display: inline-block;
+text-decoration: none;
+margin: 5px;
+padding: 5px 12px;
+background-color: rgba(0, 0, 0, 0.349);
+border-radius: 50%;
+}
+
+
+
+.middle ul li:hover{
+display: inline-block;
+text-decoration: none;
+margin: 5px;
+padding: 5px 12px;
+background-color: #fb5535;
+transition: all 0.7s;
+border-radius: 50%;
+}
+
+footer h4{
+    color: #6b6b6b;
+}
+
+
+
+
+
+
+/* 
+.mainheaderpart{
+    position: fixed;
+    margin-top: -20vh;
+    padding-top: 20px;
+    background-color: rgba(255, 99, 71, 0.082);
+} */
+
+.smallDeviceForm{
+    float: left;
+    display: none;
+}
+.largeDeviceForm{
+    display: block;
+}
+
+
+@media only screen and (max-width: 900px) {
+ 
+
+    .smallDeviceForm {
+        display: block;
+    }
+
+    .largeDeviceForm{
+        display: none;
+    }
+
+    .mainnavBar li:hover{
+        background-color: orangered; 
+        border-radius: 5px!important;
+    }
+    .mainnavBar li:hover a {
+    color: whitesmoke!important;
+    text-align: center;
+    }
+
+    .favs, .favs2{
+        margin: 0!important;
+    }
+    
+    .favs:hover, .favs2:hover{
+        background-color: turquoise!important;
+        border-radius: 5px!important;
+    }
+    .logo{
+        width: 150px;
+        height: 50px;
+    }
+
+    .mainnavBar{
+        padding: 10px 30px;
+        background-color: rgba(255, 99, 71, 0.144)!important;
+        position: fixed;
+        width: 100%;
+        z-index: 300;
+        transition: all 0.8s;
+    }
+    .mainnavBar2 {
+        background-color: rgba(234, 46, 12, 0.79) !important;
+    }
+    
+
+
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
